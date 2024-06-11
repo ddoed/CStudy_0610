@@ -1,1 +1,2 @@
 C:\Users\Administrator\Desktop\Helloworld\x64\Debug\Helloworld.exe
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
