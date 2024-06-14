@@ -3,27 +3,27 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main1() {
+int main() {
     int number, guess, attempts = 0;
-    srand(time(NULL)); // ���� ������ �õ� ����
+    srand(time(NULL)); // 난수 생성기 시드 설정
 
-    number = rand() % 100 + 1; // 1���� 100������ ���� ����
+    number = rand() % 100 + 1; // 1부터 100까지의 난수 생성
 
-    printf("1���� 100 ������ ���ڸ� ���纸����.\n");
+    printf("1부터 100 사이의 숫자를 맞춰보세요.\n");
 
     do {
-        printf("������ ���ڸ� �Է��ϼ���: ");
+        printf("추측한 숫자를 입력하세요: ");
         scanf("%d", &guess);
         attempts++;
 
         if (guess > number) {
-            printf("�ʹ� Ů�ϴ�.\n");
+            printf("너무 큽니다.\n");
         }
         else if (guess < number) {
-            printf("�ʹ� �۽��ϴ�.\n");
+            printf("너무 작습니다.\n");
         }
         else {
-            printf("�����մϴ�! %d������ ���ڸ� ������ϴ�.\n", attempts);
+            printf("축하합니다! %d번만에 숫자를 맞췄습니다.\n", attempts);
         }
     } while (guess != number);
 

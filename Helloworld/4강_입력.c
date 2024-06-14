@@ -25,10 +25,14 @@ int main(void)
 	printf("문제2\n");
 	int SecondNum1, SecondNum2, SecondNum3;
 	scanf_s("%d %d %d", &SecondNum1, &SecondNum2, &SecondNum3);
-	printf("결과 : %d \n", SecondNum1+SecondNum2+SecondNum3);
+	printf("결과 : %d \n\n", SecondNum1+SecondNum2+SecondNum3);
 
 	//문제3 두개의 정수를 입력받아서 몫과 나머지를 출력
 	//a%b 나머지
-
+	printf("문제3\n");
+	int ThiredNum1, ThiredNum2;
+	scanf_s("첫번째 문자 : %d", &ThiredNum1);
+	scanf_s("두번째 문자 : %d", &ThiredNum2);
+	printf("몫 : %d", ThiredNum1 / ThiredNum2);
 	return 0;
 }
