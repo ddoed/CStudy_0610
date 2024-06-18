@@ -1,2 +1,5 @@
-﻿  lecture4_2.c
+﻿  lecture6.c
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture6.c(65,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture6.c(72,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+  LINK : C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
   Helloworld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
