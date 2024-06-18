@@ -25,7 +25,7 @@ void lecture4_2()
 	printf("문제2\n");
 	int SecondNum1, SecondNum2, SecondNum3;
 	scanf_s("%d %d %d", &SecondNum1, &SecondNum2, &SecondNum3);
-	printf("SecondNum1 + SecondNum2 + SecondNum3 : %d \n\n", SecondNum1 + SecondNum2 + SecondNum3);
+	printf("SecondNum1 x SecondNum2 + SecondNum3 : %d \n\n", SecondNum1 * SecondNum2 + SecondNum3);
 
 	//문제3 두개의 정수를 입력받아서 몫과 나머지를 출력
 	//a%b 나머지

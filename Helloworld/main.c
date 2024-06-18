@@ -7,7 +7,7 @@
 예시 : #include + 파일이름
 
 #include <파일 이름> : 시스템 경로에서 해당 파일이 있는지 없는지 확인
-#include "파일 이름" : 프로젝트 파일 내부에서 파일이 있는지 확인하고 없으면 스시템 경로에서 파일을 찾음
+#include "파일 이름" : 프로젝트 파일 내부에서 파일이 있는지 확인하고 없으면 시스템 경로에서 파일을 찾음
 
 */
 
@@ -17,7 +17,8 @@ int main(void)
 	//lecture2();
 	//lecture3();
 	//lecture4();
-	lecture4_2();
+	//lecture4_2();
 	//lecture5();
+	lecture6();
 	return 0;
 }
