@@ -110,12 +110,12 @@ void lecture8()
 	printf("내가 계산한 값 = %d 실제 값 = %d\n", my_int, result);
 
 	char overFlowedValue = 0b01000000;
-	overFlowedValue << 1;
-	printf("%c\n", overFlowedValue);
+	result = overFlowedValue << 2;
+	printf("%d\n", result);
 
 	//overFlowedValue = 0b0000100;
 	//overFlowedValue >> 5;
-	// printf 출력
+	//printf
 
 	// 10진수 하나를 입력받아서 해당 수의 2의 보수 값을 출력하는 코드 작성 (~)연산자 사용
 	//int twoComplement;
