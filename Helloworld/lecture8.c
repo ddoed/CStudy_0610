@@ -109,26 +109,46 @@ void lecture8()
 	result = d | e;
 	printf("내가 계산한 값 = %d 실제 값 = %d\n", my_int, result);
 
-	char overFlowedValue = 0b01000000;
-	result = overFlowedValue << 2;
-	printf("%d\n", result);
+	d = 0b0001111;
+	e = 0b0010010;
+	my_int = 0b0011101;
+	result = d ^ e;
+	printf("내가 계산한 값 = %d 실제 값 = %d\n", my_int, result);
 
-	//overFlowedValue = 0b0000100;
-	//overFlowedValue >> 5;
-	//printf
+	char overFlowedValue = 0b01000000;
+	// char 1바이트의 크기. 표현할 수 있는 수의 범위?
+	// 1바이트 정수.. 표현할 수 있는 음수 범위, 양수 범위
+	// 양의 정수 범위 : 0b[0][000][0000] : 0, 1 ~ 127
+	// 음의 정수 범위 : 0b[1][000][0000] : -128 ~ -1
+	//                 0b[1][111][1111] : -1
+	
+	// 0b01000000 << 2;
+	// 0b100000000 -> 8자리까지
+
+	overFlowedValue = overFlowedValue << 2;
+	printf("%d\n", overFlowedValue);
+
+	overFlowedValue = 0b0000100;
+	overFlowedValue = overFlowedValue >> 5;
+	printf("%d\n", overFlowedValue);
 
 	// 10진수 하나를 입력받아서 해당 수의 2의 보수 값을 출력하는 코드 작성 (~)연산자 사용
-	//int twoComplement;
-
-	//printf("2의 보수의 값을 출력 : %d", twoComplement);
+	int twoComplement;
+	scanf_s("%d", &twoComplement);
+	twoComplement = ~twoComplement + 1;
+	printf("2의 보수의 값을 출력 : %d\n", twoComplement);
 
 
 	// 시프트 연산
 	// 10진수 하나 입력 받아서 해당 수에 8을 곱한후 32로 나누는 코드를 x,/ 없이 작성해보기
 	// 8과 32가 반드시 코드에 들어가도록. 비트 연산자 (>> <<) 사용할 것
-	//int shiftNum;
-
-	//print("8을 곱한 후 32로 나눈 값 : %d", shiftNum);
+	char shiftNum = 64;
+	// 0b01000000
+	//scanf_s("%d\n", &shiftNum);
+	//shiftNum = (shiftNum << 3) >> 5;
+	shiftNum = shiftNum << 3;
+	shiftNum = shiftNum >> 5;
+	printf("8을 곱한 후 32로 나눈 값 : %d", shiftNum);
 
 	
 
