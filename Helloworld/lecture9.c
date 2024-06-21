@@ -28,12 +28,12 @@
 *  (2) 실수형
 *  float : 4바이트. 소수점 6자리 표현
 *  double : 8바이트. 소수점 15자리 표현
-*  long float : 8바이트. 소수점 18자리 표현
+*  long double : 8바이트. 소수점 18자리 표현
 */
 
 /*
 *  1부호(MSN) 0, 1, 음수, 양수
-*  부호가 필요없다 unsigned
+*  부호가 필요없다 unsigned(양수)
 *  unsigned char 변수 이름 : 0 ~ 2e8개 저장. 
 *  unsigned int 변수이름 : 0 ~ 2e32개
 */
@@ -79,6 +79,7 @@
 */
 /*
 *  이름 있는 상수 : 심볼릭 상수
+*  3, 3.14, A ...
 *  중력의 크기 : -9.8f;
 *  
 *  const float gravity = -9.8f;
@@ -90,7 +91,7 @@
 * 대문자로 작성, 띄어쓰기는 _로 표시
 */
 
-#include "lectures.h"
+#include "lectures.h";
 
 void lecture9()
 {
@@ -98,27 +99,48 @@ void lecture9()
 
 	// sizeof 연산자를 사용해서 데이터형을 출력하기
 	//int num = sizeof 3;
-	printf("char 데이터 크기 : %d\n", sizeof(char));
-	printf("short 데이터 크기 : %d\n", sizeof(short));
-	printf("int 데이터 크기 : %d\n", sizeof(int));
-	printf("long 데이터 크기 : %d\n", sizeof(long));
-	printf("float 데이터 크기 : %d\n", sizeof(float));
+
+	// 경고 해결하는 방법
+	int sizeNum = sizeof(char);
+	printf("char 데이터 크기 : %d\n", sizeNum);
+
+	sizeNum = sizeof(short);
+	printf("short 데이터 크기 : %d\n", sizeNum);
+	printf("int 데이터 크기 : %d\n", sizeNum);
+	printf("long 데이터 크기 : %d\n", sizeNum);
+	printf("float 데이터 크기 : %d\n", sizeNum);
 
 	int num = 9;
 	printf("%d\n", sizeof num);
 
 	// 문제2. literal 상수를 sizeof 연산자로 출력
 	// 실수 정수 (3.15, 3.15f, 10)
-	printf("int 데이터 크기 : % d\n", sizeof(5));
+	sizeNum = sizeof 10;
+	printf("정수형 리터럴 상수 크기 : % d\n", sizeNum);
+	sizeNum = sizeof 3.14;
+	printf("실수형 리터럴 상수 크기 : % d\n", sizeNum); // double 8바이트
+	sizeNum = sizeof 'A';
+	printf("int 데이터 크기 : % d\n", sizeNum);
 
 	// 문제3. 직사각형의 넗이를 구하는 프로그램 작성
 	// 좌표를 두개 지정받음 (xpos1, ypos1) (xpos2, ypos2)
 	// 두번째 조건 : xpos2가 xpos1보다 커야함
 	// xpos2 - xpos1
 	// (4,6) (6.8) 2x2 = 4
-	
+	int xpos1, ypos1, xpos2, ypos2;
+	printf("두번째 작성된 x,y는 첫번째 보다 커야함\n");
+	scanf_s("%d %d %d %d", &xpos1, &ypos1, &xpos2, &ypos2);
+	int width = xpos2 - xpos1;
+	int height = ypos2 - ypos1;
+	int calArea = width * height;
+	printf("%d x %d = %d\n", width, height, calArea);
 
+	
 	//심볼릭 상수 문제1.
 	// const 키워드를 사용하여 파이를 PI로 저장하고 그 값을 3.14로 한다.
 	// 원의 넓이를 구하는 코드를 상수를 사용하여 표현하세요
-}
+	const float PI = 3.14;
+	int r = 3;
+	float Area = (float)r*r * PI;
+	printf("%f", Area);
+	}
