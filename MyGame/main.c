@@ -29,5 +29,31 @@ int main(void)
 	// 플레이어의 값은 ~입니다.
 	printf("플레이어의 값 : %d\n", userValue);
 
+	int score = 0;
+	int playNum = 10;
+
+	if (computerValue == userValue)
+	{ 
+		printf("성공\n\n");
+		score += 10;
+	}
+		
+	else
+	{ 
+		printf("실패\n\n");
+		main();
+	}
+
+	if (score >= 90)
+		printf("A등급");
+	else if (score >= 80)
+		printf("B등급");
+	else if (score >= 70)
+		printf("C등급");
+	else if (score >= 60)
+		printf("D등급");
+	else
+		printf("F등급");
+
 	return 0;
 }

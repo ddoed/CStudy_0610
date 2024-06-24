@@ -1,1 +1,3 @@
-﻿  Helloworld.vcxproj -> C:\Users\yimna\OneDrive\사진\바탕 화면\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
+﻿  lecture11.c
+C:\Users\yimna\OneDrive\사진\바탕 화면\CStudy_0610\Helloworld\lecture11.c(72,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  Helloworld.vcxproj -> C:\Users\yimna\OneDrive\사진\바탕 화면\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
