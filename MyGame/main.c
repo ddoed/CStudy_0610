@@ -19,6 +19,8 @@ int main(void)
 	srand(time(NULL)); // 시간을 seed로 랜덤숫자 생성
 	int computerValue = rand() % 100 + 1; //1에서 100 랜덤한 숫자가 들어감
 	int userValue;
+	
+	
 	printf("숫자입력 : ");
 	scanf_s("%d", &userValue);
 
@@ -33,13 +35,13 @@ int main(void)
 	int playNum = 10;
 
 	if (computerValue == userValue)
-	{ 
+	{
 		printf("성공\n\n");
 		score += 10;
 	}
-		
+
 	else
-	{ 
+	{
 		printf("실패\n\n");
 		main();
 	}
