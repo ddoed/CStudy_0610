@@ -1,72 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4BE11F7D-8A5C-4ADE-8FEC-CC41D68BBD41}|..\\MyGame\\MyGame.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MyGame\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE11F7D-8A5C-4ADE-8FEC-CC41D68BBD41}|..\\MyGame\\MyGame.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture4_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture4_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture4_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uCEF4\uD30C\uC77C\uB7EC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\hello.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uBCC0\uC218.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,100 +80,108 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MyGame\\main.c",
+              "RelativeDocumentMoniker": "..\\MyGame\\main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MyGame\\main.c",
+              "RelativeToolTip": "..\\MyGame\\main.c",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-26T05:31:50.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "lecture11.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture11.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture11.c",
               "RelativeDocumentMoniker": "lecture11.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture11.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture11.c",
               "RelativeToolTip": "lecture11.c",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAqwJYAAAAFAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAqwJYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-24T07:05:07.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
-              "RelativeDocumentMoniker": "..\\MyGame\\main.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
-              "RelativeToolTip": "..\\MyGame\\main.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAADAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-24T05:56:17.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c",
-              "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c",
-              "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-17T07:38:20.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "lectures.h",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h",
-              "RelativeDocumentMoniker": "lectures.h",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h",
-              "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-17T07:38:20.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T05:56:17.085Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-17T07:38:20.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "lectures.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lectures.h",
+              "RelativeDocumentMoniker": "lectures.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lectures.h",
+              "RelativeToolTip": "lectures.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-17T07:38:20.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "newgame.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c",
-              "RelativeDocumentMoniker": "newgame.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c",
-              "RelativeToolTip": "newgame.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-17T07:38:20.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T07:38:20.896Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "\uCEF4\uD30C\uC77C\uB7EC.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "RelativeDocumentMoniker": "\uCEF4\uD30C\uC77C\uB7EC.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uCEF4\uD30C\uC77C\uB7EC.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uCEF4\uD30C\uC77C\uB7EC.c",
-              "RelativeToolTip": "\uCEF4\uD30C\uC77C\uB7EC.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uCEF4\uD30C\uC77C\uB7EC.c",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-17T07:38:20.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "lecture10.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture10.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture10.c",
               "RelativeDocumentMoniker": "lecture10.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture10.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture10.c",
               "RelativeToolTip": "lecture10.c",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-24T07:06:26.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T07:06:26.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "lecture6.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture6.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture6.c",
               "RelativeDocumentMoniker": "lecture6.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture6.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture6.c",
               "RelativeToolTip": "lecture6.c",
               "ViewState": "AQIAAFEAAAAAAAAAAAAAAHAAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -182,35 +189,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "hello.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\hello.c",
-              "RelativeDocumentMoniker": "hello.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\hello.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\hello.c",
-              "RelativeToolTip": "hello.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\hello.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-17T07:38:20.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "\uBCC0\uC218.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uBCC0\uC218.c",
-              "RelativeDocumentMoniker": "\uBCC0\uC218.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uBCC0\uC218.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uBCC0\uC218.c",
-              "RelativeToolTip": "\uBCC0\uC218.c",
+              "RelativeToolTip": "..\\..\\..\\..\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\\uBCC0\uC218.c",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-17T07:38:20.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "lecture4_2.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture4_2.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture4_2.c",
               "RelativeDocumentMoniker": "lecture4_2.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture4_2.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture4_2.c",
               "RelativeToolTip": "lecture4_2.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -218,11 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "lecture4.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture4.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture4.c",
               "RelativeDocumentMoniker": "lecture4.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture4.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture4.c",
               "RelativeToolTip": "lecture4.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -230,11 +237,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "lecture3.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture3.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture3.c",
               "RelativeDocumentMoniker": "lecture3.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture3.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture3.c",
               "RelativeToolTip": "lecture3.c",
               "ViewState": "AQIAAC0AAAAAAAAAAAAYwD8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -242,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "lecture5.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture5.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture5.c",
               "RelativeDocumentMoniker": "lecture5.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture5.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture5.c",
               "RelativeToolTip": "lecture5.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -254,11 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "lecture2.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture2.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture2.c",
               "RelativeDocumentMoniker": "lecture2.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture2.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture2.c",
               "RelativeToolTip": "lecture2.c",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -266,11 +273,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "lecture1.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture1.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture1.c",
               "RelativeDocumentMoniker": "lecture1.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture1.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture1.c",
               "RelativeToolTip": "lecture1.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -278,12 +285,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\\stdio.h",
               "ViewState": "AQIAAHUCAAAAAAAAAADwv4UCAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-13T06:54:46.609Z"
