@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BE11F7D-8A5C-4ADE-8FEC-CC41D68BBD41}|..\\MyGame\\MyGame.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:newgame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -76,11 +76,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "lecture11.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture11.c",
               "RelativeDocumentMoniker": "lecture11.c",
@@ -88,34 +88,32 @@
               "RelativeToolTip": "lecture11.c",
               "ViewState": "AQIAAIkAAAAAAAAAAAAqwJYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-24T07:05:07.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T07:05:07.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
               "RelativeDocumentMoniker": "..\\MyGame\\main.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
               "RelativeToolTip": "..\\MyGame\\main.c",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAADAAAAAWAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-24T05:56:17.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c",
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAPAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-17T07:38:20.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T07:38:20.894Z"
             },
             {
               "$type": "Document",
@@ -127,12 +125,11 @@
               "RelativeToolTip": "lectures.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-17T07:38:20.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T07:38:20.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "newgame.c",
               "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\newgame.c",
               "RelativeDocumentMoniker": "newgame.c",
@@ -140,8 +137,7 @@
               "RelativeToolTip": "newgame.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-17T07:38:20.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T07:38:20.896Z"
             },
             {
               "$type": "Document",
@@ -165,8 +161,7 @@
               "RelativeToolTip": "lecture10.c",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-24T07:06:26.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T07:06:26.464Z"
             },
             {
               "$type": "Document",

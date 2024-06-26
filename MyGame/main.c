@@ -19,41 +19,37 @@ int main(void)
 	srand(time(NULL)); // 시간을 seed로 랜덤숫자 생성
 	int computerValue = rand() % 100 + 1; //1에서 100 랜덤한 숫자가 들어감
 	int userValue;
+	int score = 0;
+	int playNum = 10;
 	printf("숫자입력 : ");
 	scanf_s("%d", &userValue);
 
-	//컴퓨터의 밸류는 ~값입니다.
-	printf("컴퓨터의 값 : %d\n", computerValue);
-	
-
-	// 플레이어의 값은 ~입니다.
-	printf("플레이어의 값 : %d\n", userValue);
-
-	int score = 0;
-	int playNum = 10;
-
-	if (computerValue == userValue)
-	{ 
-		printf("성공\n\n");
-		score += 10;
-	}
+	while (playNum > 0 & (computerValue != userValue))
+	{
 		
-	else
-	{ 
-		printf("실패\n\n");
-		main();
-	}
+		
+		if (computerValue > userValue)
+		{
+			printf("작습니다\n\n");
+			playNum -= 1;
+		}
+		else
+		{
+			printf("큽니다\n\n");
+			playNum -= 1;
+			}
+		printf("%d번 남음\n", playNum);
+		printf("숫자를 다시 입력하세요 : ");
+		scanf_s("%d", &userValue);
 
-	if (score >= 90)
-		printf("A등급");
-	else if (score >= 80)
-		printf("B등급");
-	else if (score >= 70)
-		printf("C등급");
-	else if (score >= 60)
-		printf("D등급");
+		
+	}
+	if (playNum < 0)
+		printf("실패");
 	else
-		printf("F등급");
+		printf("성공");
+
+	
 
 	return 0;
 }
