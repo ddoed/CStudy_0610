@@ -4,66 +4,58 @@
 
 int main(void)
 {
-	printf("☆☆★환영합니다★☆☆\n\n");
-	printf("숫자를 입력하면 게임이 시작합니다.\n");
+	// printf 함수와 scanf 함수를 사용해서 게임의 느낌을 만들어 보도록 합시다.
 
-	srand(time(NULL)); // 시간을 seed로 랜덤숫자 생성
-	int computerValue = rand() % 100 + 1; //1에서 100 랜덤한 숫자가 들어감
+	// 플레이어를 ★☆ 환영하는 텍스트를 출력해주세요 ☆★
+
+	// printf( 숫자를 입력하면 게임이 시작합니다.) 
+	// scanf -> 입력을 받는다.. 커서가 멈춘상태로 대기하고 있다.
+
+	// 정수 또는 실수 데이터를 만들어서 컴퓨터가 생각하는 결과를 출력하고,
+	// 내가 생각하는 결과를 같이 출력하는 프로그램을 만들어 보세요.
+
+	srand(time(NULL));
+	int computerValue = rand() % 100 + 1; // 1 ~ 100 랜덤한 숫자가 computerValue에 입력이 됩니다.
 	int userValue;
-<<<<<<< HEAD
-	int score = 0;
-	int playNum = 10;
-	printf("숫자입력 : ");
-	scanf_s("%d", &userValue);
+	int playerHP = 5;
 
-	while (playNum > 0 & (computerValue != userValue))
+
+	printf("★☆ 환영합니다. ☆★\n");
+	printf("숫자를 입력하면 게임이 시작합니다.\n");
+	printf("게임 시작!\n");
+
+	printf("플레이어의 값을 입력해주세요. ");
+	scanf_s("%d", &userValue);
+	// 컴퓨터의 벨류는 ~ 값입니다.
+	printf("컴퓨터의 값은 %d 입니다.", computerValue);
+	// 플레이어의 값은 ~ 입니다.
+
+	printf("플레이어의 값은 %d 입니다.", userValue);
+
+	while (1)
 	{
-		
-		
-		if (computerValue > userValue)
+		if (computerValue == userValue) // 1. 게임에서 승리했다 함수
 		{
-			printf("작습니다\n\n");
-			playNum -= 1;
+			GameWin();
+			break;
 		}
 		else
 		{
-			printf("큽니다\n\n");
-			playNum -= 1;
+			if (playerHP <= 0)
+			{
+				printf("게임종료\n");
+				break;
 			}
-		printf("%d번 남음\n", playNum);
-		printf("숫자를 다시 입력하세요 : ");
-		scanf_s("%d", &userValue);
-
-		
-	}
-	if (playNum < 0)
-		printf("실패");
-	else
-		printf("성공");
-
-	
-=======
-	
-	
-	printf("숫자입력 : ");
-	scanf_s("%d", &userValue);
-
-	printf("컴퓨터의 값 : %d\n", computerValue);
-	printf("플레이어의 값 : %d\n", userValue);
-
-	int score = 0;
-	int playNum = 10;
-
-	while (playNum > 0)
-	{
-		if (computerValue == userValue)
-			printf("성공");
-		else
-			if (computerValue > userValue)
-
+			// 2. 플레이어의 체력을 감소 시키고 숫자를 다시 맞출 기회를 주는 함수
+			
+			playerHP--;
+			printf("플레이어의 값 입력\n");
+			scanf_s("%d", &userValue);
+			
+			
+		}
 	}
 
->>>>>>> adb8b4139fe8e35154157abc94ec02a7349f3123
 
 	return 0;
 }

@@ -1,4 +1,4 @@
-﻿  lecture12.c
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture12.c(25,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture12.c(87,30): warning C4554: '|': 연산자 우선 순위에 오류가 있는지 확인하세요. 괄호를 사용하여 우선 순위를 명확하게 지정하세요.
+﻿  lecture14.c
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture14.c(34,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture14.c(43,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
   Helloworld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
