@@ -1,9 +1,15 @@
 #pragma once
 
-void GameWin();
-int StartNumberSetting();
-int Fail(int* playerHP);
-int SetPlayerHP();
-int InputPlayerValue(int* a);
 int InputNumber();
-void ClearConsole();
+
+void StartGameSetting();
+
+int SetPlayerHP();
+
+void inputPlayerValue();
+
+void GameWin();
+
+int Fail(int playerHP);
+
+void SetColor(unsigned char BGColor, unsigned char TextColor);
