@@ -1,31 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BE11F7D-8A5C-4ADE-8FEC-CC41D68BBD41}|..\\MyGame\\MyGame.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\CountNumFun.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0B1F3937-AA80-4B7C-9107-ABE10847BF39}|..\\Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Avoid_Star\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE11F7D-8A5C-4ADE-8FEC-CC41D68BBD41}|..\\MyGame\\MyGame.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BE11F7D-8A5C-4ADE-8FEC-CC41D68BBD41}|..\\MyGame\\MyGame.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\CountNumFunc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture15.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture15.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture14.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0B1F3937-AA80-4B7C-9107-ABE10847BF39}|..\\Avoid_Star\\Avoid_Star.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Avoid_Star\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,97 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 482,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CountNumFunc.h",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\CountNumFunc.h",
-              "RelativeDocumentMoniker": "..\\MyGame\\CountNumFunc.h",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\CountNumFunc.h",
-              "RelativeToolTip": "..\\MyGame\\CountNumFunc.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-28T08:41:37.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CountNumFun.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\CountNumFun.c",
-              "RelativeDocumentMoniker": "..\\MyGame\\CountNumFun.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\CountNumFun.c",
-              "RelativeToolTip": "..\\MyGame\\CountNumFun.c",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Avoid_Star\\main.c",
+              "RelativeDocumentMoniker": "..\\Avoid_Star\\main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Avoid_Star\\main.c",
+              "RelativeToolTip": "..\\Avoid_Star\\main.c",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T08:37:07.579Z",
+              "WhenOpened": "2024-07-02T00:11:34.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
-              "RelativeDocumentMoniker": "..\\MyGame\\main.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\MyGame\\main.c",
-              "RelativeToolTip": "..\\MyGame\\main.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAhAAAA",
+              "Title": "Console.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Avoid_Star\\Console.c",
+              "RelativeDocumentMoniker": "..\\Avoid_Star\\Console.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Avoid_Star\\Console.c",
+              "RelativeToolTip": "..\\Avoid_Star\\Console.c",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T08:34:47.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "lecture14.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture14.c",
-              "RelativeDocumentMoniker": "lecture14.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture14.c",
-              "RelativeToolTip": "lecture14.c",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T07:53:06.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c",
-              "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\main.c",
-              "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T07:52:52.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "lectures.h",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h",
-              "RelativeDocumentMoniker": "lectures.h",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lectures.h",
-              "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-28T07:52:41.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "lecture15.c",
-              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture15.c",
-              "RelativeDocumentMoniker": "lecture15.c",
-              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\CStudy_0610\\Helloworld\\lecture15.c",
-              "RelativeToolTip": "lecture15.c",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADwAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T07:52:24.882Z",
+              "WhenOpened": "2024-07-02T00:11:31.278Z",
               "EditorCaption": ""
             }
           ]

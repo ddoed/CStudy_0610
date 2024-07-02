@@ -15,20 +15,14 @@ int main()
 	int bx = 0, by = 0; //총알의 xy좌표
 	bool bullet = false; // 현재 총알이 생성되지 않았으면 false, 생성됬으면 true
 
-	GotoXY(x, y);
-	printf("♥");
-	
-
-
+#if true //플레이어의 이동 조작
 	while (true)
 	{
 		Clear();
 
-
-#if true //플레이어의 이동 조작
 		if (GetAsyncKeyState(VK_LEFT) & 8001) // 왼쪽키를 눌렀을때 아래코드 실행
 		{
-			if (x <= 1) x = 1;
+			if (x < 1) x = 1;
 			x--;
 		}
 
@@ -63,21 +57,21 @@ int main()
 			{
 				bx = x;
 				by = y - 1;
-				bullet == true;
+				bullet = true;
 			}
+		}
 
-
-			if (bullet) // 총알이 생성되어 있을때만
-			{
-				by--;
-				GotoXY(bx, by);
-				printf("↑");
-			}
+		if (bullet) // 총알이 생성되어 있을때만
+		{
+			by--;
+			GotoXY(bx, by);
+			printf("↑");
 
 			if (by < 1) //총알이 화면 가장 위로 넘어갔을 때 비활성화된다
 				bullet = false;
 		}
 #endif
+		
 		Sleep(100);
 	}
 }

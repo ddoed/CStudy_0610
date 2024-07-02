@@ -1,3 +1,2 @@
 ﻿  main.c
-C:\Users\Administrator\Desktop\CStudy_0610\Avoid_Star\main.c(66,12): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
   Avoid_Star.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Avoid_Star.exe
