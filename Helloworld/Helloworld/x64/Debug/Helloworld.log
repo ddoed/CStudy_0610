@@ -1,7 +1,9 @@
-﻿  lecture14.c
-  lecture15.c
-C:\Users\yimna\OneDrive\사진\바탕 화면\CStudy_0610\Helloworld\lecture14.c(34,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\yimna\OneDrive\사진\바탕 화면\CStudy_0610\Helloworld\lecture14.c(43,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-  main.c
-  코드를 생성하고 있습니다...
-  Helloworld.vcxproj -> C:\Users\yimna\OneDrive\사진\바탕 화면\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
+﻿  lecture18.c
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(29,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(30,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(119,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(120,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(19,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(20,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture18.c(74,8): warning C4047: '초기화 중': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  Helloworld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe

@@ -123,6 +123,6 @@ void lecture17()
 	printf("%d %d\n", exam_num1, exam_num2);
 
 
-
+	
 
 }
