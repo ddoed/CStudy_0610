@@ -1,5 +1,2 @@
-﻿  lecture19.c
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture19.c(47,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture19.c(48,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture19.c(40,7): warning C4090: '초기화 중': 'const' 한정자가 서로 다릅니다.
+﻿  lecture20.c
   Helloworld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
