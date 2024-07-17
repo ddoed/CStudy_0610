@@ -129,9 +129,6 @@ void lecture20()
 
 	int input;
 	scanf_s("%d", &input);
-
-	
-
 	DecimalToBinary(input);
 
 	
