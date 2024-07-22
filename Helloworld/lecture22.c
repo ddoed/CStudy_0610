@@ -24,7 +24,7 @@ void lecture22()
 	{
 		for (int j = 0; j < 4; ++j)
 		{
-			numArr2[i][j] = (3 * i) + j+1;
+			numArr2[i][j] = (3 * i) + j + 1;
 			printf("%d", numArr2[i][j]);
 		}
 	}

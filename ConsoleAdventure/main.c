@@ -3,14 +3,15 @@
 #include <stdbool.h>
 
 #define ROWS 30
-
 #define COLS 30
 
 char map[COLS][ROWS] = { 0 };
-char mapString[(COLS * (ROWS+1)) + 1]; //Rows+1 -> 개행문자 // 마지막 더하기는 공백문
+char mapString[(COLS * (ROWS+1)) + 1]; //Rows+1 -> 개행문자 // 마지막 더하기는 공백문자
 
-void InputProcess(int* x, int* y)
+void InputProcess(int* x, int* y,bool* canMove)
 {
+	if (*canMove)
+	{
 		if (GetAsyncKeyState(VK_LEFT) & 8001) // 왼쪽키를 눌렀을때 아래코드 실행
 		{
 			if (*x < 2) *x = 2;
@@ -34,6 +35,7 @@ void InputProcess(int* x, int* y)
 			if (*y < 2) *y = 2;
 			*y -= 1;
 		}
+	}
 	
 }
 
@@ -51,7 +53,7 @@ void GotoTargetPos(int a, int b, char* s)
 	printf("%s", s);
 }
 
-void Map()
+void MakeMap(char wall, char(*map)[ROWS])
 {
 	for (int i = 0; i < COLS; ++i)
 	{
@@ -63,16 +65,20 @@ void Map()
 
 	for (int i = 0; i < COLS; ++i)
 	{
-		map[i][0] = '#';
-		map[i][ROWS - 1] = '#';
+		map[i][0] = wall;
+		map[i][ROWS - 1] = wall;
 	}
 
 	for (int j = 0; j < ROWS; ++j)
 	{
-		map[0][j] = '#';
-		map[COLS - 1][j] = '#';
+		map[0][j] = wall;
+		map[COLS - 1][j] = wall;
 	}
 
+}
+
+void RenderMap()
+{
 	int mapIndex = 0;
 
 	for (int i = 0; i < COLS; ++i)
@@ -84,13 +90,6 @@ void Map()
 		mapString[mapIndex++] = '\n';
 	}
 	mapString[mapIndex] = '\0';
-
-	GotoTargetPos(0, 0, mapString);
-}
-
-void MakeMap(char wall, char(*map)[ROWS])
-{
-
 }
 
 int main()
@@ -101,32 +100,52 @@ int main()
 	SetConsoleSize(50,50);
 	SetConsoleCursorVisibility(0);
 
-	int playerX = 15, playerY = 15;
+	int playerX = 2, playerY = 2;
 	bool itemFound = false;
 
 	int itemX = 8, itemY = 8;
 
-	bool CanMove = true;
+	bool canMove = true;
+
+	//게임 맵 세팅
 
 	
+	//외벽 설정
+	MakeMap('#', map);
+
+	//내벽 데이터 넣어주기
+	for (int i = 0; i < 10; ++i)
+	{
+		map[4][i] = '#';
+	}
+	
+
+	RenderMap();
+
+	
+
 
 	while (1)
 	{
 		Clear();
-		
-		Map();
+
+		if (map[playerX][playerY] == 35)
+		{
+			canMove = false;
+		}
+
+		GotoTargetPos(0, 0, mapString);
 		
 		GotoTargetPos(playerX, playerY, "@");
 
 		if (!itemFound)
 			GotoTargetPos(itemX, itemY, "$");
 		else
-			GotoTargetPos(1, 31, "아이템을 획득했습니다");
+			GotoTargetPos(1, 30, "아이템을 획득했습니다");
 
-		InputProcess(&playerX, &playerY, &CanMove); // 플레이어의 입력을 받아서 움직이는 함수
-		InteractOther(&playerX, &playerY, &itemX, &itemY, &itemFound);
 		
-
+		InputProcess(&playerX, &playerY, &canMove); // 플레이어의 입력을 받아서 움직이는 함수
+		InteractOther(&playerX, &playerY, &itemX, &itemY, &itemFound);
 		
 		Sleep(50);
 	}
