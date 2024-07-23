@@ -8,6 +8,17 @@
 char map[COLS][ROWS] = { 0 };
 char mapString[(COLS * (ROWS+1)) + 1]; //Rows+1 -> 개행문자 // 마지막 더하기는 공백문자
 
+typedef struct Player {
+	int playerX;
+	int playerY;
+}Player;
+
+typedef struct Item {
+	int itemX;
+	int itemY;
+	bool item;
+}Item;
+
 void InputProcess(int* x, int* y,bool* canMove)
 {
 	if (*canMove)
@@ -39,11 +50,11 @@ void InputProcess(int* x, int* y,bool* canMove)
 	
 }
 
-void InteractOther(int* playerX, int* playerY, int* itemX, int* itemY, bool* item)
+void InteractOther(Player* p, Item* I)
 {
-	if (*playerX == *itemX && *playerY == *itemY)
+	if (p->playerX == I->itemX && p->playerY == I->itemY)
 	{
-		*item = true;
+		I->item = true;
 	}
 }
 
@@ -100,10 +111,14 @@ int main()
 	SetConsoleSize(50,50);
 	SetConsoleCursorVisibility(0);
 
-	int playerX = 2, playerY = 2;
-	bool itemFound = false;
+	Player p1;
+	Item i1;
 
-	int itemX = 8, itemY = 8;
+	p1.playerX = 2;
+	p1.playerY = 2;
+	i1.item = false;
+	i1.itemX = 8;
+	i1.itemY = 8;
 
 	bool canMove = true;
 
@@ -129,12 +144,16 @@ int main()
 	{
 		Clear();
 
+		
+
+		GotoTargetPos(0, 0, mapString);
+
 		if (map[playerX][playerY] == 35)
 		{
 			canMove = false;
 		}
-
-		GotoTargetPos(0, 0, mapString);
+		else
+			canMove = true;
 		
 		GotoTargetPos(playerX, playerY, "@");
 
@@ -145,7 +164,7 @@ int main()
 
 		
 		InputProcess(&playerX, &playerY, &canMove); // 플레이어의 입력을 받아서 움직이는 함수
-		InteractOther(&playerX, &playerY, &itemX, &itemY, &itemFound);
+		InteractOther(&p1, &i1);
 		
 		Sleep(50);
 	}

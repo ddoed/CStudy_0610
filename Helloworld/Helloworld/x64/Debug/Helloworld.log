@@ -1,2 +1,5 @@
-﻿  lecture22.c
+﻿  lecture24.c
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture24.c(34,19): warning C4552: '!=': 식의 결과가 사용되지 않습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture24.c(83,27): warning C4133: '함수': 'Player *'과(와) 'Player2 *' 사이의 형식이 호환되지 않습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture24.c(68,10): warning C4101: 'p2' :참조되지 않은 지역 변수입니다.
   Helloworld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe
