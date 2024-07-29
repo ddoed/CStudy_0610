@@ -1,27 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+#include "Function.h"
 
-typedef struct Monster {
-	char name[30];
-	char region[30];
-	char grade[30];
-	int level[30];
-}Monster;
-
-int AddMonseter(char(*monster_name)[30], char(*monster_region)[30], char(*monster_grade)[30], int* monster_level, int* totalCount, Monster* monsterPtr)
-{
-	printf("몬스터 이름 : ");
-	scanf_s("%s", monster_name[*totalCount]);
-	printf("몬스터 지역 : ");
-	scanf_s("%s", monster_region[*totalCount]);
-	printf("몬스터 등급 : ");
-	scanf_s("%s", monster_grade[*totalCount]);
-	printf("몬스터 레벨 : ");
-	scanf_s("%s", monster_level[*totalCount]);
-}
-int SearchMonster();
-int ShowAllMonster();
-int DeleteMonster();
+//typedef struct Monster {
+//	char name[30];
+//	char region[30];
+//	char grade[30];
+//	int level[30];
+//}Monster;
 
 int main()
 {
@@ -32,9 +18,9 @@ int main()
 	char monster_grade[100][30];
 	int monster_level[100];
 
-	int totalMonsterCount;
+	int totalMonsterCount = 0;
 
-	Monster monsters;
+	Monster monsterGroup[100];
 
 	while (1)
 	{
@@ -48,11 +34,10 @@ int main()
 
 		if (playerInput==1)
 		{
-			AddMonseter(monster_name, monster_region, monster_grade, monster_leve, &totalMonsterCount, &monsters);
+			AddMonsterInfo(monsterGroup, &totalMonsterCount);
 
 			totalMonsterCount++;
 		}
-			
 		
 		
 		
