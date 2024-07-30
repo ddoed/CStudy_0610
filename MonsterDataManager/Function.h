@@ -8,8 +8,8 @@ typedef struct Monster {
 
 int Compare(char* str1, char* str2);
 
-void SearchMonsterByName(Monster monster);
+void AddMonsterInfo(Monster monster[100], int* monsterIndexPtr);
 
-void AddMonsterInfo(Monster(*monster)[100], int* monsterIndexPtr);
+void SearchMonsterByName(Monster monster[100], int totalmonsterCount);
 
-void ShowMonsterInfo(Monster monster);
+void ShowAllMonsterData(Monster monster[100], int totalMonsterCount);
