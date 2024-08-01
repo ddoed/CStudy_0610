@@ -1,7 +1,7 @@
 ﻿  main.c
-C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(63,4): warning C4013: 'DeleteMonsterByName'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(24,7): warning C4101: 'monster_name' :참조되지 않은 지역 변수입니다.
-C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(27,6): warning C4101: 'monster_level' :참조되지 않은 지역 변수입니다.
-C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(26,7): warning C4101: 'monster_grade' :참조되지 않은 지역 변수입니다.
-C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(25,7): warning C4101: 'monster_region' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(106,4): warning C4013: 'DeleteMonsterByName'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(65,7): warning C4101: 'monster_name' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(68,6): warning C4101: 'monster_level' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(67,7): warning C4101: 'monster_grade' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\main.c(66,7): warning C4101: 'monster_region' :참조되지 않은 지역 변수입니다.
   MonsterDataManager.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\MonsterDataManager.exe

@@ -2,21 +2,62 @@
 #include <string.h>
 #include "Function.h"
 
-//typedef struct Monster {
-//	char name[30];
-//	char region[30];
-//	char grade[30];
-//	int level[30];
-//}Monster;
+#define filename "monsterData.txt"
 
-//int SearchMonster();
-//int ShowAllMonster(Monster (*monster)[100]);
-//int DeleteMonster();
+void PrintMonsterList(Monster* monsterList, int totalCount)
+{
+	FILE* fp = fopen(filename, "w");
 
+	if (fp == NULL)
+	{
+		perror("파일 연결 실패!\n");
+	}
 
+	for (int i = 0; i < totalCount; ++i)
+	{
+		fprintf(fp, "%s %s %s\n", monsterList[i].name, monsterList[i].grade, monsterList[i].region);
+	}
 
+	fclose(fp);
+}
+void LoadMonsterData(Monster* monsterList, int* totalCount)
+{
+	FILE* fp = fopen(filename, "r");
 
+	if (fp == NULL)
+	{
+		perror("파일 읽기 실패!\n");
+	}
 
+	int count = 0;
+	char ch;
+
+	if (fgetc(fp) != EOF)
+	{
+		count = 1;
+	}
+
+	fseek(fp, 0, SEEK_SET);
+
+	while (fgetc(fp) != EOF)
+	{
+		ch = fgetc(fp);
+		if (ch == '\n') {
+			count++;
+		}
+	}
+
+	fseek(fp, 0, SEEK_SET);
+
+	*totalCount = count;
+
+	for (int i = 0; i < count; ++i)
+	{
+		fscanf_s(fp, "%s %s %s", (monsterList + i)->name, 30, (monsterList + i)->grade, 30, (monsterList + i)->region, 30);
+	}
+
+	fclose(fp);
+}
 int main()
 {
 	int playerInput = 0;
@@ -29,6 +70,8 @@ int main()
 	int totalMonsterCount = 0;
 
 	Monster monsterGroup[100];
+
+	LoadMonsterData(monsterGroup, &totalMonsterCount);
 
 	while (1)
 	{
@@ -64,6 +107,11 @@ int main()
 		}
 
 		if (playerInput == 5)
+		{
 			break;
+		}
+			
 	}
+	PrintMonsterList(monsterGroup, totalMonsterCount);
+	
 }

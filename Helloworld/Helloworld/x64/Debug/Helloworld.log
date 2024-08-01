@@ -1,5 +1,3 @@
-﻿  lecture25.c
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture25.c(4,9): warning C4068: 알 수 없는 pragma 'pop'
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture25.c(115,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'Point'입니다.
-C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture25.c(136,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+﻿  lecture26.c
+C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\lecture26.c(124,9): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'FILE *'입니다.
   Helloworld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\Helloworld\x64\Debug\Helloworld.exe

@@ -1,7 +1,5 @@
 #include "Function.h"
 
-
-
 int Compare(char* str1, char* str2) // 반환하는 값이 0이면 다르다. 1이면 같다.
 {
 	while (*str1)
@@ -70,21 +68,8 @@ void ShowAllMonsterData(Monster monster[100], int totalMonsterCount)
 	}
 }
 
-void DeleteMonsterByName(Monster* monster, int* totalCount) {
-	char deleteName[30];
-	printf("삭제할 몬스터 이름 입력: ");
-	scanf_s("%s", deleteName, 30);
-
-	for (int i = 0; i < *totalCount; i++) {
-		if (Compare(deleteName, monster[i].name)) {
-			// 배열 요소를 왼쪽으로 이동
-			for (int j = i; j < *totalCount - 1; j++) {
-				monster[j] = monster[j + 1];
-			}
-			(*totalCount)--;
-			printf("몬스터 %s가 성공적으로 삭제되었습니다.\n", deleteName);
-			return;
-		}
-	}
-	printf("이름이 %s인 몬스터를 찾을 수 없습니다.\n", deleteName);
+void DeleteMonsterByName(Monster* monster, int* totalCount) 
+{
+	
 }
+
