@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleAdventure", "..\Cons
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonsterDataManager", "..\MonsterDataManager\MonsterDataManager.vcxproj", "{480D49A2-C041-4830-83F9-02DAA7D4E22B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToyProject01", "..\ToyProject01\ToyProject01.vcxproj", "{FE83875B-28C3-416E-9588-249C4549A3C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{480D49A2-C041-4830-83F9-02DAA7D4E22B}.Release|x64.Build.0 = Release|x64
 		{480D49A2-C041-4830-83F9-02DAA7D4E22B}.Release|x86.ActiveCfg = Release|Win32
 		{480D49A2-C041-4830-83F9-02DAA7D4E22B}.Release|x86.Build.0 = Release|Win32
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Debug|x64.ActiveCfg = Debug|x64
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Debug|x64.Build.0 = Debug|x64
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Debug|x86.Build.0 = Debug|Win32
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Release|x64.ActiveCfg = Release|x64
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Release|x64.Build.0 = Release|x64
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Release|x86.ActiveCfg = Release|Win32
+		{FE83875B-28C3-416E-9588-249C4549A3C0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

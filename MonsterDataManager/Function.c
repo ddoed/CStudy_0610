@@ -70,6 +70,6 @@ void ShowAllMonsterData(Monster monster[100], int totalMonsterCount)
 
 void DeleteMonsterByName(Monster* monster, int* totalCount) 
 {
-	
+	printf("test\n");
 }
 

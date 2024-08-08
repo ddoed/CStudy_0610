@@ -1,72 +1,59 @@
 #include <stdio.h>
-#include "Console.h";
 #include <stdbool.h>
+#include "Console.h"
 
-#define ROWS 30
-#define COLS 30
+#define ROWS 30	 // 가로
+#define COLS 30	 // 세로   Collums(기둥)
+#define filename "playerData.txt"
 
-char map[COLS][ROWS] = { 0 };
-char mapString[(COLS * (ROWS+1)) + 1]; //Rows+1 -> 개행문자 // 마지막 더하기는 공백문자
+char map[COLS][ROWS] = { 0 };	   // 맵 안에있는 데이터
+// ROWS + 1 : 개행 문자 '\n' 더해준 것.
+// (COLS x ROWS)+1 : 널 문자 '\0' 더해준 것.
+char mapString[(COLS * (ROWS + 1)) + 1]; // 데이터로 부터 출력하는 문자열
 
-typedef struct Player {
-	int playerX;
-	int playerY;
-}Player;
-
-typedef struct Item {
-	int itemX;
-	int itemY;
-	bool item;
-}Item;
-
-void InputProcess(int* x, int* y,bool* canMove)
+void InputProcess(int* x, int* y)
 {
-	if (*canMove)
+	if (GetAsyncKeyState(VK_LEFT) & 8001)   // 1이 되면 true ,0 false
 	{
-		if (GetAsyncKeyState(VK_LEFT) & 8001) // 왼쪽키를 눌렀을때 아래코드 실행
-		{
-			if (*x < 2) *x = 2;
-			*x -= 1;
-		}
-
-		else if (GetAsyncKeyState(VK_RIGHT) & 8001) // 오른쪽키를 눌렀을때 아래코드 실행
-		{
-			if (*x > 28) *x = 28;
-			*x += 1;
-		}
-
-		else if (GetAsyncKeyState(VK_DOWN) & 8001) // 위쪽키를 눌렀을때 아래코드 실행
-		{
-			if (*y > 28) *y = 28;
-			*y += 1;
-		}
-
-		else if (GetAsyncKeyState(VK_UP) & 8001) // 아래쪽키를 눌렀을때 아래코드 실행
-		{
-			if (*y < 2) *y = 2;
-			*y -= 1;
-		}
+		if (*x < 2) *x = 2;
+		*x -= 1;
 	}
-	
-}
-
-void InteractOther(Player* p, Item* I)
-{
-	if (p->playerX == I->itemX && p->playerY == I->itemY)
+	else if (GetAsyncKeyState(VK_RIGHT) & 8001)
 	{
-		I->item = true;
+		if (*x > 28) *x = 28;
+		*x += 1;
+	}
+	else if (GetAsyncKeyState(VK_UP) & 8001)
+	{
+		if (*y < 2) *y = 2;
+		*y -= 1;
+	}
+	else if (GetAsyncKeyState(VK_DOWN) & 8001)
+	{
+		if (*y > 28) *y = 28;
+		*y += 1;
 	}
 }
 
-void GotoTargetPos(int a, int b, char* s)
+void InteractOther(int* playerX, int* playerY, int* itemX, int* itemY, bool* item)
+{
+	// 플레이어와 아이템의 위치가 같은지 판별
+	if (*playerX == *itemX && *playerY == *itemY)
+	{
+		*item = true;
+	}
+
+}
+
+void GoToTargetPos(int a, int b, char* s)
 {
 	GotoXY(a, b);
 	printf("%s", s);
 }
 
-void MakeMap(char wall, char(*map)[ROWS])
+void MakeMap(char Wall, char(*map)[ROWS]) // 2차원 배열. 맵에 존재하는 데이터 설정
 {
-	for (int i = 0; i < COLS; ++i)
+	for (int i = 0; i < COLS; ++i)	  // 세로 x 가로 빈 공간
 	{
 		for (int j = 0; j < ROWS; ++j)
 		{
@@ -74,21 +61,19 @@ void MakeMap(char wall, char(*map)[ROWS])
 		}
 	}
 
-	for (int i = 0; i < COLS; ++i)
+	for (int i = 0; i < COLS; ++i)	// 가로0, 가로 ROWS -1 세로 그려라
 	{
-		map[i][0] = wall;
-		map[i][ROWS - 1] = wall;
+		map[i][0] = Wall;
+		map[i][ROWS - 1] = Wall;
 	}
-
-	for (int j = 0; j < ROWS; ++j)
+	for (int i = 0; i < ROWS; ++i)
 	{
-		map[0][j] = wall;
-		map[COLS - 1][j] = wall;
+		map[0][i] = Wall;
+		map[COLS - 1][i] = Wall;
 	}
-
 }
 
-void RenderMap()
+void RenderMap() // 만들어진 맵을 그리는 함수
 {
 	int mapIndex = 0;
 
@@ -103,69 +88,141 @@ void RenderMap()
 	mapString[mapIndex] = '\0';
 }
 
+typedef struct PlayerData 
+{
+	char name[30];
+	int score;
+}PlayerData;
+
+
+void SavePlayerData(PlayerData* player, int totalCount)
+{
+	FILE* fp = fopen(filename, "w");
+
+	if (fp == NULL)
+	{
+		perror("파일 연결 실패!\n");
+	}
+
+	for (int i = 0; i < totalCount; ++i)
+	{
+		fprintf(fp, "%s %d\n", player[i].name, player[i].score);
+	}
+
+	fclose(fp);
+}
+
+void LoadPlayerData(PlayerData* player, int* totalCount)
+{
+	FILE* fp = fopen(filename, "r");
+
+	if (fp == NULL)
+	{
+		perror("파일 읽기 실패!\n");
+		return;
+	}
+
+	int count = 0;
+	char ch;
+
+	if (fgetc(fp) != EOF)
+	{
+		count = 1;
+	}
+
+	fseek(fp, 0, SEEK_SET);
+
+	while (fgetc(fp) != EOF)
+	{
+		ch = fgetc(fp);
+		if (ch == '\n') {
+			count++;
+		}
+	}
+
+	fseek(fp, 0, SEEK_SET);
+
+	*totalCount = count;
+
+	for (int i = 0; i < count; ++i)
+	{
+		fscanf_s(fp, "%s %d", (player + i)->name, 30, &(player + i)->score);
+	}
+
+	fclose(fp);
+}
+
 int main()
 {
-	printf("Hello world!\n");
-	Clear();
+	PlayerData allPlayerData[10];
+	int totalCount = 0;
+	LoadPlayerData(allPlayerData, &totalCount);
+	printf("%s %d", allPlayerData[0].name, allPlayerData[0].score);
 
-	SetConsoleSize(50,50);
+	PlayerData p1 = { "임나빈", 100 };
+	SavePlayerData(&p1, 1);
+
+	printf("Hello World!\n");
+	Clear(); // 콘솔을 전부 지워주는 기능
+
+	SetConsoleSize(50, 50);
 	SetConsoleCursorVisibility(0);
 
-	Player p1;
-	Item i1;
+	// 플레이어의 정보
+	int playerX = 15, playerY = 15;     // 플레이어의 시작 좌표
+	bool itemFound = false; // 아이템을 발견하면 true만들어 준다.
+	bool canMove = true;	// canMove가 true일 때만 움직여라.
 
-	p1.playerX = 2;
-	p1.playerY = 2;
-	i1.item = false;
-	i1.itemX = 8;
-	i1.itemY = 8;
+	int itemX = 8, itemY = 8;
 
-	bool canMove = true;
+	// 게임 맵 세팅
 
-	//게임 맵 세팅
 
-	
-	//외벽 설정
+
+	// 테두리(외벽) 설정
 	MakeMap('#', map);
-
-	//내벽 데이터 넣어주기
-	for (int i = 0; i < 10; ++i)
-	{
-		map[4][i] = '#';
-	}
-	
+	// 내벽 데이터 넣어주기.
+	map[10][10] = '#';
 
 	RenderMap();
 
-	
 
-
+	// 게임이 시작하자 마자 종료되는 이슈. -> 무한 반복문
 	while (1)
 	{
 		Clear();
+		GoToTargetPos(0, 0, mapString);
 
-		
+		GoToTargetPos(playerX, playerY, "@");
 
-		GotoTargetPos(0, 0, mapString);
+		InputProcess(&playerX, &playerY); // 플레이어의 입력을 받아서 움직이는 함수.
+		InteractOther(&playerX, &playerY, &itemX, &itemY, &itemFound);
 
-		if (map[playerX][playerY] == 35)
+		if (!itemFound) // player위치 item위치 같을 때
 		{
-			canMove = false;
+			GoToTargetPos(itemX, itemY, "$");
 		}
 		else
-			canMove = true;
-		
-		GotoTargetPos(playerX, playerY, "@");
+		{
+			GoToTargetPos(1, 31, "아이템을 획득했습니다.");
+		}
 
-		if (!itemFound)
-			GotoTargetPos(itemX, itemY, "$");
-		else
-			GotoTargetPos(1, 30, "아이템을 획득했습니다");
+#if false
+		GoToTargetPos(0, 30, "###############################");
+		GoToTargetPos(0, 0, "###############################");
 
-		
-		InputProcess(&playerX, &playerY, &canMove); // 플레이어의 입력을 받아서 움직이는 함수
-		InteractOther(&p1, &i1);
-		
+		for (int i = 0; i < 30; ++i)
+		{
+			GoToTargetPos(30, i, "#");
+			GoToTargetPos(0, i, "#");
+		}
+
+#endif
+		// 화면 밖을 나가면 @ (0,0)으로 움직이는 현상도 막아보세요
+
+
 		Sleep(50);
 	}
+
+
 }

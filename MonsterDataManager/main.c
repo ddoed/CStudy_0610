@@ -2,7 +2,7 @@
 #include <string.h>
 #include "Function.h"
 
-#define filename "monsterData.txt"
+#define filename "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\MonsterData.txt"
 
 void PrintMonsterList(Monster* monsterList, int totalCount)
 {
@@ -113,5 +113,7 @@ int main()
 			
 	}
 	PrintMonsterList(monsterGroup, totalMonsterCount);
+
+	return 0;
 	
 }
