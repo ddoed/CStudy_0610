@@ -18,6 +18,8 @@ typedef struct PlayerData
 	int score;
 }PlayerData;
 
+int beforeX = -1;
+int beforeY = -1;
 int playerX = 1;
 int playerY = 1;
 int timer = 0;
@@ -83,7 +85,10 @@ char** setMaze(int size) {
 void printMaze(char** maze, int size) {
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
-			printf("%c", maze[i][j]);
+            if (maze[i][j] == '#')
+                printf("■");
+            else
+                printf("  ");
 		}
 		printf("\n");
 	}
@@ -93,29 +98,32 @@ void printMaze(char** maze, int size) {
 
 
 void InputProcess(int* x, int* y, int size) {
+    beforeX = *x; beforeY = *y;
     if (GetAsyncKeyState(VK_LEFT) & 8001) {
-        if (maze[*y][*x - 1] != '#') {
-            *x -= 1;
+        if (maze[*y][*x/2 -1] != '#') {
+            *x -= 2; 
         }
     }
     else if (GetAsyncKeyState(VK_RIGHT) & 8001) {
-        if (maze[*y][*x + 1] != '#') {
-            *x += 1;
+        if (maze[*y][*x/2 + 1] != '#') {
+            *x += 2;
         }
     }
     else if (GetAsyncKeyState(VK_UP) & 8001) {
-        if (maze[*y - 1][*x] != '#') {
+        if (maze[*y - 1][*x/2] != '#') {
             *y -= 1;
         }
     }
     else if (GetAsyncKeyState(VK_DOWN) & 8001) {
-        if (maze[*y + 1][*x] != '#') {
+        if (maze[*y + 1][*x/2] != '#') {
             *y += 1;
         }
     }
 }
 
 void GoToTargetPos(int a, int b, char* s) {
+    GotoXY(beforeX, beforeY);
+    printf("  ");
     GotoXY(a, b);
     printf("%s", s);
 }
@@ -185,22 +193,23 @@ void GamePlay(void) {
     Clear();
     int mazeSize = 21; // Define maze size
     maze = setMaze(mazeSize);
-    playerX = 1;
+    playerX = 2;
     playerY = 1;
+    SetConsoleSize(42, 25);
+    printMaze(maze, mazeSize);
+    GotoXY(38, 19);
+    printf("탈출");
+    
+    
     while (true) {
-        SetConsoleSize(30, 30);
         time(&startTime);
-        Clear();
-        printMaze(maze, mazeSize);
-        GotoXY(19, 19);
-        printf("탈출");
         GotoXY(0, mazeSize);
         printf("방향 이동 : ← ↑ ↓ →");
         printf("\n시간 : %d 초", timer);
-        GoToTargetPos(playerX, playerY, "@");
+        GoToTargetPos(playerX, playerY, "♤");
         InputProcess(&playerX, &playerY, mazeSize);
 
-        if (playerY == mazeSize - 2 && playerX == mazeSize - 2) {
+        if (playerY == 19 && playerX == 38) {
             Clear();
             break;
         }

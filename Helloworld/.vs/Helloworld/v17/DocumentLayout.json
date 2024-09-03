@@ -3,14 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE83875B-28C3-416E-9588-249C4549A3C0}|..\\ToyProject01\\ToyProject01.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE83875B-28C3-416E-9588-249C4549A3C0}|..\\ToyProject01\\ToyProject01.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE83875B-28C3-416E-9588-249C4549A3C0}|..\\ToyProject01\\ToyProject01.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture27.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|solutionrelative:lecture27.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE83875B-28C3-416E-9588-249C4549A3C0}|..\\ToyProject01\\ToyProject01.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480D49A2-C041-4830-83F9-02DAA7D4E22B}|..\\MonsterDataManager\\MonsterDataManager.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -23,9 +29,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{480D49A2-C041-4830-83F9-02DAA7D4E22B}|..\\MonsterDataManager\\MonsterDataManager.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\Function.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72682A8E-93B3-4057-96F2-32CA548F464E}|Helloworld.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture21.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -50,9 +53,6 @@
       "AbsoluteMoniker": "D:0:0:{480D49A2-C041-4830-83F9-02DAA7D4E22B}|..\\MonsterDataManager\\MonsterDataManager.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\Function.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE83875B-28C3-416E-9588-249C4549A3C0}|..\\ToyProject01\\ToyProject01.vcxproj|C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -63,11 +63,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 482,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ConsoleAdventure\\main.c",
+              "RelativeDocumentMoniker": "..\\ConsoleAdventure\\main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ConsoleAdventure\\main.c",
+              "RelativeToolTip": "..\\ConsoleAdventure\\main.c",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAJcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-05T07:50:02.936Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "lecture21.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture21.c",
               "RelativeDocumentMoniker": "lecture21.c",
@@ -79,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "lecture22.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture22.c",
               "RelativeDocumentMoniker": "lecture22.c",
@@ -91,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "lecture24.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture24.c",
               "RelativeDocumentMoniker": "lecture24.c",
@@ -103,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "lecture25.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture25.c",
               "RelativeDocumentMoniker": "lecture25.c",
@@ -115,20 +128,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "lecture27.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture27.c",
               "RelativeDocumentMoniker": "lecture27.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\Helloworld\\lecture27.c",
               "RelativeToolTip": "lecture27.c",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAQwFoAAAABAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAFoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-06T06:54:53.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T06:54:53.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Function.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\Function.h",
               "RelativeDocumentMoniker": "..\\MonsterDataManager\\Function.h",
@@ -140,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Function.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\Function.c",
               "RelativeDocumentMoniker": "..\\MonsterDataManager\\Function.c",
@@ -152,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\MonsterDataManager\\main.c",
               "RelativeDocumentMoniker": "..\\MonsterDataManager\\main.c",
@@ -160,20 +172,20 @@
               "RelativeToolTip": "..\\MonsterDataManager\\main.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-06T06:36:47.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T06:36:47.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "Console.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.h",
               "RelativeDocumentMoniker": "..\\ToyProject01\\Console.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.h",
               "RelativeToolTip": "..\\ToyProject01\\Console.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAVAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-05T11:40:18.316Z"
+              "WhenOpened": "2024-08-05T11:40:18.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -189,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Console.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ConsoleAdventure\\Console.h",
               "RelativeDocumentMoniker": "..\\ConsoleAdventure\\Console.h",
@@ -201,20 +213,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Console.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.c",
               "RelativeDocumentMoniker": "..\\ToyProject01\\Console.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\Console.c",
               "RelativeToolTip": "..\\ToyProject01\\Console.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-05T07:55:58.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Console.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ConsoleAdventure\\Console.c",
               "RelativeDocumentMoniker": "..\\ConsoleAdventure\\Console.c",
@@ -226,37 +238,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ConsoleAdventure\\main.c",
-              "RelativeDocumentMoniker": "..\\ConsoleAdventure\\main.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ConsoleAdventure\\main.c",
-              "RelativeToolTip": "..\\ConsoleAdventure\\main.c",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAAAJcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-05T07:50:02.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
-              "ViewState": "AQIAAEAEAAAAAAAAAAAawEoEAAAAAAAA",
+              "ViewState": "AQIAAHcCAAAAAAAAAAAMwIUCAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-05T07:36:19.176Z"
+              "WhenOpened": "2024-08-05T07:36:19.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\main.c",
               "RelativeDocumentMoniker": "..\\ToyProject01\\main.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\CStudy_0610\\ToyProject01\\main.c",
               "RelativeToolTip": "..\\ToyProject01\\main.c",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAAoBAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-05T07:33:55.366Z",
               "EditorCaption": ""
